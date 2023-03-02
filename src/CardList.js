@@ -3,6 +3,7 @@ import Card from './Card';
 
 class CardList extends React.Component {
     render() {
+
         const { robots } = this.props;
         const cardsArray = robots.map((user) => {
             return (
@@ -14,6 +15,7 @@ class CardList extends React.Component {
                 />
             );
         })
+
         return (
             <div>
                 {cardsArray}
