@@ -1,7 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import Card from './Card';
 
-class CardList extends React.Component {
+class CardList extends Component {
     render() {
 
         const { robots } = this.props;
